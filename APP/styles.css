@@ -1,0 +1,16 @@
+.grid {
+	width : 606px; /* 선까지 생각해서 600이지만 606을 줌 */
+	height : 606px;
+	display : flex;
+	flex-wrap : wrap;
+}
+
+.square {
+	width : 200px;
+	height : 200px;
+	border : solid black 1px;
+}
+.mole {
+	background-image : url("mole.png");
+	background-size : cover;
+}
